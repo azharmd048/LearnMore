@@ -1,3 +1,4 @@
-body{
-    background-color: brown;
+.container .row .col .card{
+    display: block;
+    margin: 0px auto;
 }
