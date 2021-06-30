@@ -2,3 +2,6 @@
     display: block;
     margin: 0px auto;
 }
+.carousel-item img{
+    height:200px;
+}
