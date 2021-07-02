@@ -1,0 +1,28 @@
+/*index.html*/
+.card:hover{
+    transform: scale(1.05);
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;;
+    background-color: black;
+    color:whitesmoke;
+    font-size: 22px;
+    line-height: 1.8;
+}
+body .btn{
+    background-color: tomato;
+    color: black;
+}
+.navbar{
+    background-color:rgb(27, 26, 26);
+    color: whitesmoke;
+}
+.card {
+    background-color: rgb(27, 26, 26);
+
+}
+
+footer{
+    background-color:rgb(27, 26, 26);
+}
+/*web.html*/
