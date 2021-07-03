@@ -12,6 +12,7 @@ body{
 body .btn{
     background-color: tomato;
     color: black;
+    border: 2px solid rgb(255, 0, 0);
 }
 .navbar{
     background-color:rgb(27, 26, 26);
@@ -21,8 +22,85 @@ body .btn{
     background-color: rgb(27, 26, 26);
 
 }
+#head_container img{
+    border: 2px solid whitesmoke;
+    cursor: pointer;
 
+}
+#head_container img:hover{
+    border: 2px solid tomato;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+#my_about{
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+#container_btn{
+    margin-top: 50px;
+    
+}
+#container_btn button:hover{
+   border: 2px solid whitesmoke;
+   color: whitesmoke;
+   background-color: black;
+}
+#row_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+#col_about{
+    display: block;
+    width: 255px;
+    height: 430px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 20px;
+    border: rgb(255, 0, 0) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 80px
+   
+   
+}
+#col_about img{
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+    transition:height 2s;
+    border-bottom: rgb(255, 0, 0) 4px solid;
+}
+#row_container{
+    display: block;
+    width: 250px;
+    margin: 0px auto;
+    padding: 0px 0px;
+    text-align: left;
+    color:white
+}
+#row_container p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#row_container h1{
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+#col_about img:hover{
+    height: 430px;
+   
+}
 footer{
     background-color:rgb(27, 26, 26);
 }
-/*web.html*/
