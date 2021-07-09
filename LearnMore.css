@@ -22,10 +22,16 @@ body .btn{
     background-color: rgb(27, 26, 26);
 
 }
-#head_container img{
+#head_container #my_about{
     border: 2px solid whitesmoke;
     cursor: pointer;
     transition:2s
+
+}
+#head_container #my_about:hover{
+    border: 2px solid tomato;
+    cursor: pointer;
+    transform: scale(1.2);
 
 }
 #contact_footer{
@@ -36,11 +42,9 @@ body .btn{
 #contact_btn{
     margin-top: 35px;
 }
-#head_container img:hover{
-    border: 2px solid tomato;
-    cursor: pointer;
-    transform: scale(1.2);
 
+#about_cont{
+    visibility: hidden;
 }
 #my_about{
     border-radius: 50px;
