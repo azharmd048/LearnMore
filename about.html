@@ -60,7 +60,7 @@
   </nav>
   <div id="head_container" class="container d-block mx-auto my-3 text-center">
     <h1 class="text-warning mt-5">Who am I &nbsp?</h1>
-    <h3 id="about_cont" class="text-warning ">Developer,&nbsp Designer, &nbspThinker.</h3>
+    <h3 id="about_cont" class="text-warning "></h3>
      <!--<img class="d-block mx-auto"id="my_about"src="../LearnMore/images/about3.jpg" width=100px height="100px">-->
      <input type="image" onclick="func()" class="d-block mx-auto" id="my_about" src="../LearnMore/images/about3.jpg"
      width=100px height="100px">
@@ -86,9 +86,17 @@
     </div>
   </footer>
   <script>
+    var text="Developer, Designer, Thinker.";
+    var x = document.getElementById("about_cont");
+    var i=0;
+    var speed=85;
     function func() {
-      var x = document.getElementById("about_cont");
-      x.style.visibility = "visible";
+     
+      if(i<text.length){
+        x.innerHTML+=text.charAt(i);
+        i++;
+        setTimeout(func, speed);
+      }
     }
 
   </script>
