@@ -59,11 +59,20 @@
     </div>
   </nav>
   <div id="head_container" class="container d-block mx-auto my-3 text-center">
-    <h1 class="text-warning mt-5">Who am I &nbsp?</h1>
-    <h3 id="about_cont" class="text-warning "></h3>
-     <!--<img class="d-block mx-auto"id="my_about"src="../LearnMore/images/about3.jpg" width=100px height="100px">-->
-     <input type="image" onclick="func()" class="d-block mx-auto" id="my_about" src="../LearnMore/images/about3.jpg"
-     width=100px height="100px">
+    <span class=" mt-5">W</span>
+    <span class=" mt-5">h</span>
+    <span class="mt-5">o</span>
+    <span class=" mt-5">&nbsp</span>
+    <span class=" mt-5">a</span>
+    <span class="mt-5">m</span>
+    <span class=" mt-5">&nbsp</span>
+    <span class=" mt-5">I</span>
+    <span class=" mt-5">&nbsp?</span>
+    <h3 id="about_cont1" class=""></h3>
+   
+    <!--<img class="d-block mx-auto"id="my_about"src="../LearnMore/images/about3.jpg" width=100px height="100px">-->
+    <input type="image" onclick="func()" class="d-block mx-auto" id="my_about" src="../LearnMore/images/about3.jpg"
+      width=100px height="100px">
   </div>
   <div class="container" id="container_btn">
     <form action="../LearnMore/contact.html">
@@ -86,16 +95,17 @@
     </div>
   </footer>
   <script>
-    var text="Developer, Designer, Thinker.";
-    var x = document.getElementById("about_cont");
-    var i=0;
-    var speed=85;
+    let text1 = "Developer, Designer, Thinker.";
+    let x = document.getElementById("about_cont1");
+    let i = 0;
+    let j=i;
+    let speed = 85;
     function func() {
-     
-      if(i<text.length){
-        x.innerHTML+=text.charAt(i);
-        i++;
-        setTimeout(func, speed);
+
+      if (i < text1.length){
+            x.innerHTML += text1.charAt(i);
+            i++;
+            setTimeout(func, speed);
       }
     }
 

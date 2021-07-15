@@ -22,17 +22,40 @@ body .btn{
     background-color: rgb(27, 26, 26);
 
 }
+
 #head_container #my_about{
+    border-radius: 50px;
+    margin-top: 20px;
     border: 2px solid whitesmoke;
     cursor: pointer;
     transition:2s
 
 }
 #head_container #my_about:hover{
-    border: 2px solid tomato;
+    border: 2px solid aqua;
     cursor: pointer;
     transform: scale(1.2);
 
+}
+#head_container #about_cont1 {
+    color: aqua;
+    font-weight: bold;
+}
+
+#head_container span{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 900;
+    color: gray;
+   
+    display: inline-block;
+
+}
+#head_container span:hover{
+    color: aqua;
+    transform: rotate(23deg) scale(1.3);
+
+   
 }
 #contact_footer{
     width: 100%;
@@ -42,11 +65,7 @@ body .btn{
 #contact_btn{
     margin-top: 35px;
 }
-#my_about{
-    border-radius: 50px;
-    margin-top: 20px;
 
-}
 #container_btn{
     margin-top: 50px;
     
