@@ -47,6 +47,7 @@ body .btn{
     font-size: 3rem;
     font-weight: 900;
     color: gray;
+    visibility: hidden;
    
     display: inline-block;
 
