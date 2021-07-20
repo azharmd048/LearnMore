@@ -68,11 +68,13 @@
     <span id="7" class=" mt-5">&nbsp</span>
     <span id="8" class=" mt-5">I</span>
     <span id="9" class=" mt-5">&nbsp?</span>
+
     <h3 id="about_cont1" class=""></h3>
-   
+  
     <!--<img class="d-block mx-auto"id="my_about"src="../LearnMore/images/about3.jpg" width=100px height="100px">-->
     <input type="image" onclick="func()" class="d-block mx-auto" id="my_about" src="../LearnMore/images/about3.jpg"
       width=100px height="100px">
+      <h3 id="about_cont2" class=""></h3>
   </div>
   <div class="container" id="container_btn">
     <form action="../LearnMore/contact.html">
@@ -141,15 +143,19 @@
     setInterval("f9()",1900);
 
     let text1 = "Developer, Designer, Thinker.";
+    let text2 = "MD AZHARUDDIN";
     let x = document.getElementById("about_cont1");
+    let y = document.getElementById("about_cont2");
     let i = 0;
-    let j=i;
+    let j=0;
     let speed = 85;
     function func() {
 
-      if (i < text1.length){
+      if ((i < text1.length||j < text2.length)){
             x.innerHTML += text1.charAt(i);
+            y.innerHTML += text2.charAt(j);
             i++;
+            j++;
             setTimeout(func, speed);
       }
     }

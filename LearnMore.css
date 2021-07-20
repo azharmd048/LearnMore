@@ -41,6 +41,17 @@ body .btn{
     color: aqua;
     font-weight: bold;
 }
+#head_container #about_cont2 {
+    color: aqua;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#head_container #about_cont1:hover {
+    transform: scale(1.2);
+ }
+ #head_container #about_cont2:hover {
+    transform: scale(1.2);
+ }
 
 #head_container span{
     display: inline;
